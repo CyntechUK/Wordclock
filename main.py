@@ -136,7 +136,7 @@ def update():
   panel.show()
 
 def clear():
-  for i in range(0,63):
+  for i in range(0,64):
     panel.setPixelColor(i,Color(0,0,0))
 
 
