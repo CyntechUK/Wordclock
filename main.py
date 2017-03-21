@@ -263,12 +263,8 @@ while True:
     ten()
   if hour == 11 or hour == 23:
     eleven()
-  if hour == 12 or hour == 24:
+  if hour == 12 or hour == 0:
     twelve()
 
   update()
   sleep(0.5)
-
-
-
-
