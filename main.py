@@ -1,4 +1,4 @@
-from neopixel import *
+from rpi_ws281x import Adafruit_NeoPixel, Color
 from time import sleep
 from datetime import datetime
 import math
